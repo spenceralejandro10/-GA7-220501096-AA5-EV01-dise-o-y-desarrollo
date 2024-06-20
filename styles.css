@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, main, footer {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  p {
+    color: #34495e;
+  }
+  
+  /* Estilos para formularios */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label, input, button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilos para secciones */
+  #registro, #login, #creaciones {
+    margin-bottom: 40px;
+  }
+  
+  #registro, #login {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para imágenes */
+  #creaciones img {
+    width: 100%;
+    max-width: 300px; /* Tamaño máximo de las imágenes */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
